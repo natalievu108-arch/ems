@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("ESP32 Environmental Monitor")
 
 # Replace this with the IP shown in your Serial Monitor
-ESP32_URL = "http://192.168.1.145/data"
+ESP32_URL = "http://192.168.12.249/data"
 
 if "history" not in st.session_state:
     st.session_state.history = []
